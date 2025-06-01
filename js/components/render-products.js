@@ -14,13 +14,19 @@ export default async function renderProductCards(products) {
   }
 }
 
-function renderCards(products) {
-  const catalogEl = document.querySelector('.catalog__list');
+export function renderCards(products, list = ".catalog__list", item = "catalog__item") {
+  const catalogEl = document.querySelector(list);
   catalogEl.innerHTML = "";
+
+  const itemClasses = Array.isArray(item)
+    ? item
+    : typeof item === "string"
+      ? item.trim().split(/\s+/)  // разделяем по пробелам
+      : [];
 
   products.forEach(product => {
     const productItem = document.createElement('li');
-    productItem.classList.add('catalog__item');
+    productItem.classList.add(...itemClasses);
 
     productItem.innerHTML =
       `
