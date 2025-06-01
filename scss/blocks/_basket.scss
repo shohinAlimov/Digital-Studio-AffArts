@@ -29,7 +29,7 @@
     flex-direction: column;
     gap: 16px;
     list-style: none;
-    margin: 0 0 16px;
+    margin: 0;
     padding: 0;
   }
 
@@ -41,18 +41,19 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 16.8px;
+
+    &-close {
+      padding: 0;
+      width: 20px;
+      height: 20px;
+      background-color: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
-  &__close {
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    background-color: transparent;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   &__img {
     align-items: flex-start;

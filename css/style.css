@@ -91,7 +91,6 @@
 
 .swiper-backface-hidden .swiper-slide {
   transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -298,7 +297,8 @@
 .swiper-button-next svg, .swiper-button-prev svg {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   transform-origin: center;
 }
 
@@ -414,7 +414,8 @@ button.swiper-pagination-bullet {
   padding: 0;
   box-shadow: none;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -574,7 +575,8 @@ button.swiper-pagination-bullet {
 .swiper-zoom-container > canvas, .swiper-zoom-container > img, .swiper-zoom-container > svg {
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .swiper-slide-zoomed {
@@ -632,7 +634,6 @@ button.swiper-pagination-bullet {
 
 .swiper-cube .swiper-slide {
   pointer-events: none;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 1;
   visibility: hidden;
@@ -686,7 +687,6 @@ button.swiper-pagination-bullet {
 
 .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-bottom, .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-left, .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-right, .swiper-cube .swiper-slide-shadow-cube.swiper-slide-shadow-top {
   z-index: 0;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -696,7 +696,6 @@ button.swiper-pagination-bullet {
 
 .swiper-flip .swiper-slide {
   pointer-events: none;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 1;
 }
@@ -711,12 +710,10 @@ button.swiper-pagination-bullet {
 
 .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-bottom, .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-left, .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-right, .swiper-flip .swiper-slide-shadow-flip.swiper-slide-shadow-top {
   z-index: 0;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .swiper-creative .swiper-slide {
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: hidden;
   transition-property: transform, opacity, height;
@@ -728,7 +725,6 @@ button.swiper-pagination-bullet {
 
 .swiper-cards .swiper-slide {
   transform-origin: center bottom;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: hidden;
 }
@@ -790,7 +786,6 @@ button.swiper-pagination-bullet {
 }
 
 .tippy-backdrop {
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #333;
   border-radius: 50%;
@@ -907,7 +902,8 @@ a {
 */
 abbr[title] {
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
   border-bottom: none; /* 1 */
 }
 
@@ -1201,7 +1197,8 @@ main {
 img {
   display: block;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -1230,7 +1227,8 @@ button {
   white-space: nowrap;
   border: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
 }
 
 /* Blocks */
@@ -1444,7 +1442,7 @@ button {
   flex-direction: column;
   gap: 16px;
   list-style: none;
-  margin: 0 0 16px;
+  margin: 0;
   padding: 0;
 }
 .basket__item {
@@ -1456,7 +1454,7 @@ button {
   font-weight: 500;
   line-height: 16.8px;
 }
-.basket__close {
+.basket__item-close {
   padding: 0;
   width: 20px;
   height: 20px;
@@ -1478,7 +1476,8 @@ button {
 }
 .basket__img img {
   height: 60px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 60px;
 }
 
@@ -1839,7 +1838,8 @@ button {
 }
 .product-card__img {
   height: 436px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 290px;
   transform: scale(1.03);
 }
@@ -2170,6 +2170,9 @@ button {
   border-radius: 8px;
   border: 1px solid #A5A5A5;
 }
+.custom-input__field::-moz-placeholder {
+  color: #A5A5A5;
+}
 .custom-input__field::placeholder {
   color: #A5A5A5;
 }
@@ -2333,6 +2336,4 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

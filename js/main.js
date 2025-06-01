@@ -1,9 +1,11 @@
 import initBurgerMenu from "./components/burger.js";
 import initCityDropdown from "./components/city-dropdown.js";
+import allLogicWithCards from "./components/logicWithCards.js";
 import renderProductCards from "./components/render-products.js";
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', async () => {
   initBurgerMenu();
   initCityDropdown();
-  renderProductCards();
+  await renderProductCards();
+  allLogicWithCards();
 });
