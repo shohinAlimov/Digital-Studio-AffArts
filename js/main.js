@@ -5,6 +5,7 @@ import initCityDropdown from "./components/city-dropdown.js";
 import allLogicWithCards from "./components/logicWithCards.js";
 import renderProductCards from "./components/render-products.js";
 import slider from "./components/slider.js";
+import validateForm from "./components/validate.js";
 
 window.addEventListener('DOMContentLoaded', async () => {
   initBurgerMenu();
@@ -14,4 +15,5 @@ window.addEventListener('DOMContentLoaded', async () => {
   addTocart();
   showAccordion();
   slider();
+  validateForm();
 });
