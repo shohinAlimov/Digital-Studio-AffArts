@@ -1838,10 +1838,10 @@ button {
   pointer-events: all;
 }
 .product-card__img {
-  height: 436px;
+  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  width: 290px;
+  width: unset;
   transform: scale(1.03);
 }
 .product-card__more {

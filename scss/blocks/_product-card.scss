@@ -34,9 +34,9 @@
   }
 
   &__img {
-    height: 436px;
+    height: 100%;
     object-fit: contain;
-    width: 290px;
+    width: unset;
     transform: scale(1.03);
   }
 

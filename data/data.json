@@ -6,7 +6,8 @@
       "new": 11540,
       "old": 15300
     },
-    "image": "../images/item-1.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-1.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -26,7 +27,8 @@
       "new": 10540,
       "old": 17300
     },
-    "image": "../images/item-2.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-2.png",
     "availability": {
       "moscow": 0,
       "orenburg": 0,
@@ -46,7 +48,8 @@
       "new": 14555,
       "old": 22300
     },
-    "image": "../images/item-3.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-3.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -67,7 +70,8 @@
       "new": 6540,
       "old": 10300
     },
-    "image": "../images/item-4.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-4.png",
     "availability": {
       "moscow": 0,
       "orenburg": 0,
@@ -87,7 +91,8 @@
       "new": 8540,
       "old": 12300
     },
-    "image": "../images/item-5.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-5.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -108,7 +113,8 @@
       "new": 17540,
       "old": 27300
     },
-    "image": "../images/item-6.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-6.png",
     "availability": {
       "moscow": 15,
       "orenburg": 25,
@@ -128,7 +134,8 @@
       "new": 12540,
       "old": 16300
     },
-    "image": "../images/item-7.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-7.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -147,7 +154,8 @@
       "new": 12999,
       "old": 17300
     },
-    "image": "../images/item-8.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-8.png",
     "availability": {
       "moscow": 0,
       "orenburg": 0,
@@ -167,7 +175,8 @@
       "new": 18540,
       "old": 19800
     },
-    "image": "../images/item-9.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-9.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -186,7 +195,8 @@
       "new": 12540,
       "old": 14300
     },
-    "image": "../images/item-10.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-10.png",
     "availability": {
       "moscow": 15,
       "orenburg": 112,
@@ -206,7 +216,8 @@
       "new": 10540,
       "old": 17300
     },
-    "image": "../images/item-11.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-11.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -225,7 +236,8 @@
       "new": 11540,
       "old": 13300
     },
-    "image": "../images/item-12.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-12.png",
     "availability": {
       "moscow": 0,
       "orenburg": 0,
@@ -244,7 +256,8 @@
       "new": 22540,
       "old": 32300
     },
-    "image": "../images/item-13.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-13.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -264,7 +277,8 @@
       "new": 14540,
       "old": 15300
     },
-    "image": "../images/item-14.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-14.png",
     "availability": {
       "moscow": 15,
       "orenburg": 25,
@@ -283,7 +297,8 @@
       "new": 18540,
       "old": 25300
     },
-    "image": "../images/item-15.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-15.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -303,7 +318,8 @@
       "new": 19540,
       "old": 24300
     },
-    "image": "../images/item-16.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-16.png",
     "availability": {
       "moscow": 15,
       "orenburg": 228,
@@ -322,7 +338,8 @@
       "new": 8540,
       "old": 15300
     },
-    "image": "../images/item-1.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-1.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -343,7 +360,8 @@
       "new": 6540,
       "old": 14300
     },
-    "image": "../images/item-2.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-2.png",
     "availability": {
       "moscow": 15,
       "orenburg": 25,
@@ -363,7 +381,8 @@
       "new": 10540,
       "old": 18300
     },
-    "image": "../images/item-3.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-3.png",
     "availability": {
       "moscow": 10,
       "orenburg": 20,
@@ -384,7 +403,8 @@
       "new": 12240,
       "old": 17800
     },
-    "image": "../images/item-4.png",
+    "image": "https://avatars.mds.yandex.net/i?id=176a0f2a2ce5f5adcc5352a6f292ba65_l-12421362-images-thumbs&n=13",
+    "imageStatic": "../images/item-4.png",
     "availability": {
       "moscow": 15,
       "orenburg": 25,
